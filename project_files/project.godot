@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Lab1_jb"
+run/main_scene="uid://dgtdxul8sw6m1"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
