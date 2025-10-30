@@ -11,9 +11,11 @@ config_version=5
 [application]
 
 config/name="Lab1_jb"
-run/main_scene="/home/lab/rwrjb/project_files/node_3d.tscn"
+run/main_scene="uid://dgtdxul8sw6m1"
 config/features=PackedStringArray("4.5", "Forward Plus")
 run/max_fps=30
+run/low_processor_mode=true
+boot_splash/fullsize=false
 config/icon="res://icon.svg"
 
 [display]
@@ -27,6 +29,10 @@ import/use_multiple_threads=false
 [navigation]
 
 avoidance/thread_model/avoidance_use_multiple_threads=false
+
+[physics]
+
+jolt_physics_3d/simulation/use_enhanced_internal_edge_removal=false
 
 [xr]
 
